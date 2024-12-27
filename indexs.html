@@ -1,1 +1,29 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" coontent="width=device-width,initial-scale=1.0">
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Rock Paper Scissor Game</h1>
+        <div class="container">
+            <div class="score">
+                <p id="playerscore">Your Score:</p>
+                <p id="Computerscore">Computer Score:</p>
+            </div>
+            <div class="choices">
+                <button id="rock" onclick="play('rock')">rock</button>
+                <button id="paper" onclick="play('paper')">paper</button>
+                <button id="Scissor" onclick="play('Scissor')">scissor</button>
+
+            </div>
+            <button id="start" onclick="startgame()">Start Game</button>
+
+        </div>
+        <p id="result"></p>
+        <p id="round"></p>
+        <sricpt src="srcipt.js"></sricpt>
+    </body>
+</html>
